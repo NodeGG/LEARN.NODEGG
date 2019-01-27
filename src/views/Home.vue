@@ -12,13 +12,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4 my-3">
-          <Card :card_text='quiz_text' :button_text='button_text'/>
+          <Card to='/' :card_text='quiz_text' :button_text='button_text'/>
         </div>
         <div class="col-md-4 my-3">
-          <Card :card_text='video_text' :button_text='button_text'/>
+          <Card to='/videos' :card_text='video_text' :button_text='button_text'/>
         </div>
         <div class="col-md-4 my-3">
-          <Card :card_text='reference_text' :button_text='button_text'/>
+          <Card to='/' :card_text='reference_text' :button_text='button_text'/>
         </div>
       </div>
     </div>

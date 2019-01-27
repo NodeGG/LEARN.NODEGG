@@ -4,7 +4,7 @@
     <img class="card-img-top" src="" alt="Card image cap">
     <div class="card-body">
       <p class="card-text">{{card_text}}</p>
-      <router-link class="btn btn-outline-dark" to='/'>{{button_text}}</router-link>
+      <router-link class="btn btn-outline-dark" :to='to'>{{button_text}}</router-link>
     </div>
   </div>
 </div>
@@ -15,6 +15,7 @@
     props:{
         card_text:String,
         button_text:String,
+        to:String
     }
   }
 </script>

@@ -18,7 +18,7 @@
           <Card to='/' :card_text='quiz_text' button_text='Coming Soon!'/>
         </div>
         <div class="col-md-4 my-3">
-          <Card to='/' :card_text='reference_text' button_text='Coming Soon!'/>
+          <Card to='/guides' :card_text='reference_text' button_text='Coming Soon!'/>
         </div>
       </div>
     </div>

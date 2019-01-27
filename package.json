@@ -5,10 +5,12 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy":"yarn build && netlify deploy --prod"
+    "deploy": "yarn build && netlify deploy --prod"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.5.21",
+    "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

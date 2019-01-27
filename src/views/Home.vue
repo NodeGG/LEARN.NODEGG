@@ -40,8 +40,8 @@ export default {
       main_text:'Node Codes',
       sub_text:'Welcome to the Codiverse',
       quiz_text:'Whats your Programming Language?',
-      video_text:'Check Out Our Videos',
-      reference_text:'Check Out Our Guides',
+      video_text:'Check Out Our Videos!',
+      reference_text:'Check Out Our Guides!',
       button_text:'Click Here'
     }
   }

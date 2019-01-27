@@ -12,13 +12,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4 my-3">
-          <Card to='/' :card_text='quiz_text' :button_text='button_text'/>
-        </div>
-        <div class="col-md-4 my-3">
           <Card to='/videos' :card_text='video_text' :button_text='button_text'/>
         </div>
         <div class="col-md-4 my-3">
-          <Card to='/' :card_text='reference_text' :button_text='button_text'/>
+          <Card to='/' :card_text='quiz_text' button_text='Coming Soon!'/>
+        </div>
+        <div class="col-md-4 my-3">
+          <Card to='/' :card_text='reference_text' button_text='Coming Soon!'/>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ export default {
     return{
       main_text:'Node Codes',
       sub_text:'Welcome to the Codiverse',
-      quiz_text:'Want To Learn How To Program?',
+      quiz_text:'Whats your Programming Language?',
       video_text:'Check Out Our Videos',
       reference_text:'Check Out Our Guides',
       button_text:'Click Here'

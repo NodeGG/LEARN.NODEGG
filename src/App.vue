@@ -12,10 +12,13 @@
               <router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/videos">Videos</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/videos">Videos</router-link>
+              <router-link class="nav-link" to="/guides">Guides</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
           </ul>
         </div>

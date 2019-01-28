@@ -1,5 +1,5 @@
 <template>
-  <div id='guides' class="container-fluid">
+  <div id='guides' class="container-fluid pt-4">
     <div class="row">
       <Index @clicked='getFile'/>
       <hr/>

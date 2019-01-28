@@ -1,6 +1,6 @@
 <template>
-  <div class="about mt-5 container">
-    <div class="about-title-section">
+  <div class="about mt-5 pt-4  container">
+    <div class="about-title-section text-center">
       <h1>About Us</h1>
     </div>
     <hr class="w-75"/>

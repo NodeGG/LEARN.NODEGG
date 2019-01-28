@@ -1,5 +1,5 @@
 <template>
-  <div id='guides' class="mt-5 container-fluid">
+  <div id='guides' class="container-fluid">
     <div class="row">
       <Index @clicked='getFile'/>
       <hr/>

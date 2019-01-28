@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="fnt-monospace">
     <div id="nav">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <router-link to='/' class="navbar-brand">Node Codes</router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,15 +21,12 @@
         </div>
       </nav>
     </div>
-    <router-view/>
+    <router-view class="mt-5"/>
   </div>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  height:inherit
 }
 </style>

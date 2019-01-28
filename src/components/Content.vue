@@ -1,10 +1,10 @@
 <template>
       <div id='content' class="content-section col-md-8 mx-3">
         <div class="py-3">
-          <p class="p-0 m-0 guide-header lead">Content Section</p>
+          <p class="p-0 m-0 guide-header lead">Guides:</p>
           <hr/>
           <div>
-            <vue-simple-markdown :source="guide"></vue-simple-markdown>
+            <vue-simple-markdown :source="text"></vue-simple-markdown>
           </div>
         </div>
       </div>
@@ -24,17 +24,10 @@ export default {
   },
   watch:{
     file(val){
-      console.log(val)
-      let string = '../docs/'+val
-      this.guide = string.toString()
-      console.log(this.guide)
-      fetch('https://raw.githubusercontent.com/NodeGG/nodecodes/master/'+this.guide)
-         .then( r => r.text() )
-         .then( t => {
-           console.log(t)
-           this.text=t
-           console.log(this.text)
-         })
+      this.guide =
+      fetch('https://raw.githubusercontent.com/NodeGG/nodecodes/master/src/'+'docs/'+val)
+         .then( r => r.text())
+         .then( t => this.text = t)
     }
   }
 }

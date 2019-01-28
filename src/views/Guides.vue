@@ -1,9 +1,9 @@
 <template>
   <div id='guides' class="mt-5 container-fluid">
     <div class="row">
-      <Index/>
+      <Index @clicked='getFile'/>
       <hr/>
-      <Content/>
+      <Content :file='filename'/>
     </div>
   </div>
 </template>
@@ -15,6 +15,16 @@ export default {
   components:{
     Index,
     Content
+  },
+  data(){
+    return {
+      filename:''
+    }
+  },
+  methods:{
+    getFile(value){
+      this.filename = value
+    }
   }
 }
 </script>

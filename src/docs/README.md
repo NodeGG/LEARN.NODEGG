@@ -2,6 +2,7 @@
 ---
 > Written By Warren Gates
 ---
+Edited on 1/29/2019
 
 ## Introduction
 
@@ -26,6 +27,3 @@ Now that you are beginning your journey as a Programmer there are a few things t
       - [Visual Studio]('https://code.visualstudio.com/')
       - [Sublime]('https://www.sublimetext.com/')
       - [Eclipse]('https://www.eclipse.org/')
-
-
-2. GitHub and a GitHub Account

@@ -17,13 +17,13 @@ NodeCodes is an Open Source Resource created by Nodegg and Friends to help New a
 
 Now that you are beginning your journey as a Programmer there are a few things that you may need or need to know about before we truly get started.
 
-1. A Text Editor
+1.  A Text Editor
   - A system or program that allows a user to edit text.
   - The main tool you will use when creating/editing your projects.
-    - [Video]('https://www.youtube.com/watch?v=x2GXe_Br84E&t=1s')
+    - [Video](https://www.youtube.com/watch?v=x2GXe_Br84E&t=1s)
     - Examples: [Free Downloads]
-      - [Notepad++]('https://notepad-plus-plus.org/')
-      - [Atom]('https://www.atom.io')
-      - [Visual Studio]('https://code.visualstudio.com/')
-      - [Sublime]('https://www.sublimetext.com/')
-      - [Eclipse]('https://www.eclipse.org/')
+      - [Notepad++](https://notepad-plus-plus.org/)
+      - [Atom](https://www.atom.io)
+      - [Visual Studio](https://code.visualstudio.com/)
+      - [Sublime](https://www.sublimetext.com/)
+      - [Eclipse](https://www.eclipse.org/)

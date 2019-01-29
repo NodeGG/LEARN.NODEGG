@@ -1,5 +1,5 @@
 <template>
-      <div id='content' class="content-section col-md-8 mx-3 px-0">
+      <div id='content' class="content-section col-md-9 mx-3 px-0">
         <div class="py-3">
           <p class="p-0 m-0 guide-header lead">Guides:</p>
           <hr/>

@@ -20,7 +20,7 @@ Now that you are beginning your journey as a Programmer there are a few things t
 1.  A Text Editor
   - A system or program that allows a user to edit text.
   - The main tool you will use when creating/editing your projects.
-    - [Video](https://www.youtube.com/watch?v=x2GXe_Br84E&t=1s)
+    - [Video](https://www.youtube.com/watch?v=x2GXe_Br84E&t=1s/)
     - Examples: [Free Downloads]
       - [Notepad++](https://notepad-plus-plus.org/)
       - [Atom](https://www.atom.io)

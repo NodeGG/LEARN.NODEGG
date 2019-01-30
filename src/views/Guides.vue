@@ -44,12 +44,6 @@ export default {
   min-height: 150px;
 }
 
-
-.guide-section{
-  height:800px;
-  overflow-y:scroll;
-  overflow: -moz-scrollbars-none;
-}
 @media (min-width: 765.98px) {
   .index-section{
     position: fixed;
@@ -57,22 +51,6 @@ export default {
     left:0;
   }
 }
-@media (max-width: 375.98px) {
-  .guide-section{
-    margin-top:15px;
-    height:350px;
-  }
-}
-@media (max-width: 625px) {
-  .guide-section{
-    margin-top:15px;
-    height:525px;
-  }
-}
-@media (max-width: 765.98px) {
-  .guide-section{
-    margin-top:15px;
-    height:600px;
-  }
-}
+
+
 </style>

@@ -26,6 +26,7 @@
         </ul>
       </div>
     </nav>
+
   </div>
   <router-view class="mt-5" />
 </div>

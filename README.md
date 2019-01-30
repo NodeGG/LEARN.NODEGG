@@ -1,5 +1,10 @@
 # NodeCodes
 
+## Introduction
+
+Hello This is a Simple Coding Resource created to help new developers as well as veterans improve their skills as programmers.
+
+
 ## Project setup
 ```
 yarn install
@@ -15,15 +20,8 @@ yarn run serve
 yarn run build
 ```
 
-### Run your tests
-```
-yarn run test
-```
+## Authors
 
-### Lints and fixes files
-```
-yarn run lint
-```
+- Warren Gates => Lead Developer, Maintainer, and Designer
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Contributes

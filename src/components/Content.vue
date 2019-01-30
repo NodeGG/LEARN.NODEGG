@@ -21,8 +21,7 @@ export default {
   },
   watch: {
     file(val) {
-
-      fetch('https://raw.githubusercontent.com/NodeGG/nodecodes/master/src/' + 'docs/' + val)
+      fetch('https://raw.githubusercontent.com/NodeGG/LEARN.NODEGG-DOCS/master/docs/' + val)
         .then(r => r.text())
         .then(t => this.text = t)
     }

@@ -22,6 +22,8 @@ export default {
 <style>
 .card {
   min-height: 150px;
-
+}
+.card-text{
+  font-size:17px;
 }
 </style>

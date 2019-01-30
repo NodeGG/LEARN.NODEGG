@@ -23,4 +23,5 @@ export default {
   height: 35vw;
   min-height: 500px
 }
+
 </style>

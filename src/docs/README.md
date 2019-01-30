@@ -1,4 +1,4 @@
-# Welcome to NodeCodes
+# Welcome to Learn.NodeGG
 > Written By Warren Gates
 Edited on 1/29/2019
 ## Introduction

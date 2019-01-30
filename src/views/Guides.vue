@@ -1,7 +1,7 @@
 <template>
-<div id='guides' class="container-fluid pt-4">
-  <div class="row">
-    <div class="col index-section pt-3 px-0 mx-3">
+<div id='guides' class="container-fluid pt-2 bg-white">
+  <div class="row bg-white">
+    <div class="col index-section px-0 mx-2 z-1">
       <p class="p-0 m-0 guide-header lead text-center">Guides: [SELECT]</p>
       <hr />
       <div class="">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <hr />
-    <div class="guide-section col-md-8">
+    <div class="guide-section col-md-8 z-0">
       <Content :file='filename' />
     </div>
   </div>
@@ -39,16 +39,23 @@ export default {
 
 <style>
 .index-section {
+  background-color: #fff;
   border: #000 solid 2px;
-  width: 250px;
+  position: fixed;
   min-height: 150px;
+  width: 95vw
 }
 
-@media (min-width: 765.98px) {
+@media (min-width: 767.98px) {
   .index-section {
-    position: fixed;
+    width: 250px;
     top: 50;
     left: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .guide-section {
+    margin-top:150px
   }
 }
 </style>

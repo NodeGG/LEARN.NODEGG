@@ -1,11 +1,12 @@
 <template>
-  <div id='index' class="index-item h-100 col-md-2 mx-3 my-2 px-0">
-        <div v-for="(guide, key) in guides" :key='key' class="btn py-3 w-100" v-on:click="onClickButton(guide)">
+  <div id='index' class="w-100 my-2">
+        <div v-for="(guide, key) in guides" :key='key' class="btn p-3 w-100 h-100 index-item" v-on:click="onClickButton(guide)">
           <p class="p-0 m-0 index-header lead">{{guide.title}}</p>
           <hr/>
           <div>
             <p>LEVEL: {{guide.level}}</p>
           </div>
+          <hr/>
         </div>
   </div>
 </template>
@@ -37,10 +38,7 @@ export default {
 </script>
 
 <style>
-.index-item{
-  border: #000 solid 2px;
-}
-.guide-header{
-  font-weight: bold;
+.index-item:hover{
+  background-color: #eee;
 }
 </style>

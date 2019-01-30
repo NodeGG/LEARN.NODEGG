@@ -1,4 +1,4 @@
-# nodecodes
+# NodeCodes
 
 ## Project setup
 ```

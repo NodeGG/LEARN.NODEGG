@@ -1,8 +1,6 @@
 <template>
-      <div id='content' class="content-section col-md-9 mx-3 px-0">
+      <div id='content' class="content-section mx-3 px-0">
         <div class="py-3">
-          <p class="p-0 m-0 guide-header lead">Guides:</p>
-          <hr/>
           <div>
             <vue-simple-markdown :source="text"></vue-simple-markdown>
           </div>
@@ -10,7 +8,6 @@
       </div>
 </template>
 <script>
-import marked from "marked";
 export default {
   name:'guide',
   props:{
@@ -34,9 +31,6 @@ export default {
 </script>
 
 <style>
-.index-section{
-  border: #000 solid 2px;
-}
 .guide-header{
   font-weight: bold;
 }

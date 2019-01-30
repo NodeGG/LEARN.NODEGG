@@ -45,7 +45,6 @@ export default {
   min-height: 150px;
   width: 95vw
 }
-
 @media (min-width: 767.98px) {
   .index-section {
     width: 250px;

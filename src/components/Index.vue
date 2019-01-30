@@ -11,7 +11,7 @@ export default {
   name: 'guides',
   mounted() {
     axios
-      .get('https://raw.githubusercontent.com/NodeGG/nodecodes/master/src/data/introlevel.json')
+      .get('https://raw.githubusercontent.com/NodeGG/LEARN.NODEGG-DOCS/master/data/introlevel.json')
       .then(res => {
         const length = res.data.length
         for (let i = 0; i < length; i++) {

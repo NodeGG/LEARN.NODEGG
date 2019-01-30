@@ -3,10 +3,6 @@
         <div v-for="(guide, key) in guides" :key='key' class="btn p-3 w-100 h-100 index-item" v-on:click="onClickButton(guide)">
           <p class="p-0 m-0 index-header lead">{{guide.title}}</p>
           <hr/>
-          <div>
-            <p>LEVEL: {{guide.level}}</p>
-          </div>
-          <hr/>
         </div>
   </div>
 </template>

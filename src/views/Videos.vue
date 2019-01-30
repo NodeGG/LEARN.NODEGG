@@ -19,6 +19,8 @@ export default{
 <style>
   .video-section{
     max-width: 800px;
-    height:400px;
+    min-width:300px;
+    height:35vw;
+    min-height:500px
   }
 </style>

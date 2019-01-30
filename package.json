@@ -2,31 +2,34 @@
   "name": "nodecodes",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "scripts":
+  {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "deploy": "yarn build && netlify deploy --prod"
   },
-  "dependencies": {
+  "dependencies":
+  {
     "axios": "^0.18.0",
-    "marked": "^0.6.0",
     "vue": "^2.5.21",
-    "vue-markdown": "^2.2.4",
-    "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.0.1",
     "vue-simple-markdown": "^1.0.8",
     "vuex": "^3.0.1"
   },
-  "devDependencies": {
+  "devDependencies":
+  {
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.21"
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
+  "postcss":
+  {
+    "plugins":
+    {
+      "autoprefixer":
+      {}
     }
   },
   "browserslist": [

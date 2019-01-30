@@ -1,9 +1,17 @@
 <template>
   <div id='guides' class="container-fluid pt-4">
     <div class="row">
-      <Index @clicked='getFile'/>
+      <div class="col index-section pt-3 px-0 mx-3">
+        <p class="p-0 m-0 guide-header lead text-center">Guides: [SELECT]</p>
+        <hr/>
+        <div class="">
+          <Index @clicked='getFile'/>
+        </div>
+      </div>
       <hr/>
-      <Content :file='filename'/>
+      <div class="guide-section col-md-8">
+        <Content :file='filename'/>
+      </div>
     </div>
   </div>
 </template>
@@ -32,8 +40,39 @@ export default {
 <style>
 .index-section{
   border: #000 solid 2px;
+  width:250px;
+  min-height: 150px;
 }
-.guide-header{
-  font-weight: bold;
+
+
+.guide-section{
+  height:800px;
+  overflow-y:scroll;
+  overflow: -moz-scrollbars-none;
+}
+@media (min-width: 765.98px) {
+  .index-section{
+    position: fixed;
+    top:50;
+    left:0;
+  }
+}
+@media (max-width: 375.98px) {
+  .guide-section{
+    margin-top:15px;
+    height:350px;
+  }
+}
+@media (max-width: 625px) {
+  .guide-section{
+    margin-top:15px;
+    height:525px;
+  }
+}
+@media (max-width: 765.98px) {
+  .guide-section{
+    margin-top:15px;
+    height:600px;
+  }
 }
 </style>

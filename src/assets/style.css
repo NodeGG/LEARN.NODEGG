@@ -1,12 +1,12 @@
-html,
-body {
-  height: 100%;
-}
-
 .fnt-monospace {
   font-family: monospace !important;
 }
 
 .bg-white {
   background-color: #fff !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: hidden;
 }

@@ -3,11 +3,7 @@
     <div>
       <Header :main_text='main_text' :sub_text='sub_text'/>
     </div>
-    <br>
-    <br>
     <hr class="mx-5"/>
-    <br>
-    <br>
     <br>
     <div class="container-fluid">
       <div class="row">
@@ -37,7 +33,7 @@ export default {
   },
   data(){
     return{
-      main_text:'Node Codes',
+      main_text:'LEARN.NODEGG',
       sub_text:'Welcome to the Codiverse',
       quiz_text:'Whats your Programming Language?',
       video_text:'Check Out Our Videos!',

@@ -16,6 +16,7 @@ NodeCodes is an Open Source Resource created by Nodegg and Friends to help New a
 Now that you are beginning your journey as a Programmer there are a few things that you may need or to know about before we truly get started.
 
 - [Getting Started Video Series](https://nodecodes.netlify.com/#/videos)
+
 1.  A Text Editor
   - A system or program that allows a user to edit text.
   - The main tool you will use when creating/editing your projects.

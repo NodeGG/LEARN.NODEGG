@@ -1,6 +1,6 @@
 <template>
 <div class="home text-center">
-  <div>
+  <div class="container-fluid px-0">
     <Header :main_text='main_text' :sub_text='sub_text' />
   </div>
   <hr class="mx-5" />
